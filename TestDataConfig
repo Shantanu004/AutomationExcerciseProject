@@ -1,0 +1,16 @@
+//Test Data Of Home Page
+ExpectedTitleOfHomePage=FEATURES ITEMS
+
+//Test Data Of Product Page
+ExpectedTitleOfProductPage=All Products
+productName=Tshirt
+ExpectedSearchFirstProductName=Men Tshirt
+ExpectedSearchSecondProductName=Pure Cotton V-Neck T-Shirt
+ExpectedSearchThirdProductName=Green Side Placket Detail T-Shirt
+ExpectedSearchFourthProductName=Premium Polo T-Shirts
+ExpectedSearchFifthProductName=Pure Cotton Neon Green Tshirt
+ExpectedSearchSixthProductName=GRAPHIC DESIGN MEN T SHIRT - BLUE
+ExpectedProductNameTitleInProductDetails=Men Tshirt
+
+//Test Data of Cart Page
+ExpectedCartQuantity=4
