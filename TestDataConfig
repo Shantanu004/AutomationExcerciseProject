@@ -3,7 +3,7 @@ ExpectedTitleOfHomePage=FEATURES ITEMS
 
 //Test Data Of Product Page
 ExpectedTitleOfProductPage=All Products
-productName=Tshirt
+productName=Tshirts
 ExpectedSearchFirstProductName=Men Tshirt
 ExpectedSearchSecondProductName=Pure Cotton V-Neck T-Shirt
 ExpectedSearchThirdProductName=Green Side Placket Detail T-Shirt
@@ -14,3 +14,10 @@ ExpectedProductNameTitleInProductDetails=Men Tshirt
 
 //Test Data of Cart Page
 ExpectedCartQuantity=4
+
+
+//Test Data of SignUp_LoginPage
+ExpectedTitleForSignUp=New User Signup!
+userName=Shantanu Mazumder
+emailAddress=shantanumazumder234@gmail.com
+ExpectedHeadingForSignUpPage=ENTER ACCOUNT INFORMATION

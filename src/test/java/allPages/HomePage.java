@@ -19,6 +19,10 @@ public class HomePage {
 
 	@FindBy(xpath = "//a[@href='/products']")
 	private WebElement ProductsButton;
+	
+	@FindBy(xpath = "//a[normalize-space()='Signup / Login']")
+	private WebElement SignUp_LoginModuleButton;
+	
 
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
@@ -38,5 +42,10 @@ public class HomePage {
 	public void clickProductsButton() {
 		waitForElementToBeVisible(ProductsButton);
 		ProductsButton.click();
+	}
+	
+	public void clickSignUp_LoginButton() {
+		waitForElementToBeVisible(SignUp_LoginModuleButton);
+		SignUp_LoginModuleButton.click();
 	}
 }

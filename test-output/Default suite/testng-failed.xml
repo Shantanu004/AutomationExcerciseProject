@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCasesofPages.TestCaseOfAllProductsPage">
+      <class name="testCasesofPages.TestCaseOfSignUp_LoginPage">
         <methods>
-          <include name="TearDown"/>
           <include name="SetUp"/>
-          <include name="VerifyRelatedAllSearchProductsAreVisible"/>
+          <include name="TearDown"/>
+          <include name="VerifySignUpFuncationalityWhenNameFieldAndEmailFieldAreFilledUp"/>
         </methods>
-      </class> <!-- testCasesofPages.TestCaseOfAllProductsPage -->
+      </class> <!-- testCasesofPages.TestCaseOfSignUp_LoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

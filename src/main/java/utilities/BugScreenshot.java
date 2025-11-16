@@ -13,7 +13,7 @@ public class BugScreenshot {
 	public static String captureBugScreenshot(WebDriver driver , String testName) {
 		
 		File srcScreenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		String ScreenshotFolder = System.getProperty("user.dir")+"\\Bug_Screenshot\\"+testName+".png";
+		String ScreenshotFolder = System.getProperty("user.dir")+"\\BugScreenshots\\"+testName+".png";
 		try {
 			FileHandler.copy(srcScreenshot,new File(ScreenshotFolder));
 		} catch (IOException e) {

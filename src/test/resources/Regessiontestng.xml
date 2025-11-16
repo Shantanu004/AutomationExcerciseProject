@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+	<listeners>
+		<listener
+			class-name="utilities.Listeners" />
+	</listeners>
+	<test thread-count="5" name="RegessionTest">
+		<classes>
+			<class name="testCasesofPages.TestCaseOfCartPage" />
+			<class name="testCasesofPages.TestCaseOfSignUp_LoginPage" />
+			<class name="testCasesofPages.TestCaseOfAllProductsPage" />
+		</classes>
+	</test> <!--
+	RegessionTest -->
+</suite> <!--
+RegressionSuite -->
